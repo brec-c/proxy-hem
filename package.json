@@ -12,8 +12,8 @@
     "type" : "git", 
     "url": "http://github.com/brec-c/proxy-hem.git"
   }, 
-  "engine" : [ "node >=0.1.102" ], 
-  "main" : "./lib/proxy-hem.js",
+  "engine" : [ "coffee >=1.1.0" ], 
+  "main" : "./proxy-hem.coffee",
   "bin": { "proxy-hem": "./bin/proxy-hem" },
   "dependencies" : { 
     "coffee-script": "latest",
