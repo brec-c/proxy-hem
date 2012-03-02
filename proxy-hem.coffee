@@ -1,7 +1,7 @@
-#!/usr/bin/env ./node_modules/coffee-script/bin/coffee
+#!/usr/bin/env /usr/local/bin/coffee
 
 httpProxy = require 'http-proxy'
-hem = require 'hem'
+Hem = require 'hem'
 optimist = require 'optimist'
 
 argv = optimist.alias('p', 'port').argv
@@ -22,6 +22,7 @@ BACKENDS =
 #
 # also, add option for Websocket server
 
+hem = Hem.exec "server", port: BACKENDS.HEM.port
 
 # create test to determine if we should forward to HEM or API
 getBackendForRequest = (req) ->
