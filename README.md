@@ -8,6 +8,8 @@ npm install -g proxy-hem
 
 #Usage
 
+The proxy server will setup to run at http://localhost:3000 by default.  Configuration for this is coming soon.
+
 Proxy-hem should be run from the directory where the slug.json file exists.  You can specify a port for Hem to use using -p.  Otherwise, the only Hem command used is 'server'.
 
 The API server is expected to be running at https://localhost:4000.  Configuration for this is coming soon.

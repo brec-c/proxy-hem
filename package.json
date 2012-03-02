@@ -16,9 +16,9 @@
   "main" : "./lib/proxy-hem.js",
   "bin": { "proxy-hem": "./bin/proxy-hem" },
   "dependencies" : { 
-    "coffee-script": "latest",
-    "http-proxy":    "latest",
-    "hem":           "latest",
-	"optimist":      "latest"
+    "coffee-script": "~1.2.0",
+    "http-proxy":    "~0.8.0",
+    "hem":           "~0.1.8",
+	"optimist":      "~0.2.6"
   }
 }
